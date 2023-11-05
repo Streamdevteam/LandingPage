@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(14, 13, 13);
+  }
+  
+  .navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
+  
+  .nav-links li {
+    padding: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .join-btn {
+    background-color: blue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-section {
+   
+    display: flex;
+    overflow: auto;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+  }
+  
+  .left-section h1 {
+    font-size: 24px;
+  }
+  
+  .left-section p {
+    color: #333;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .join-waitlist-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .our-story-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .right-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+
+  .secondary-section {
+   
+    display: flex;
+    overflow: auto;
+    padding: 80px;
+  }
+  
+  .secondary-section .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .secondary-section .left-section .left-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+  
+  .secondary-section .right-section {
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .secondary-section .right-section h3 {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .secondary-section .right-section h1 {
+    font-size: 24px;
+    color: aliceblue;
+  }
+  
+  .secondary-section .right-section p {
+    color: #333;
+  }
+  
+  .third-section {
+   
+    display: flex;
+    overflow: auto;
+    padding: 80px;
+  }
+  
+  .third-section .rigth-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .third-section .rigth-section .rigth-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+  
+  .third-section .left-section {
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .third-section .left-section h3 {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .third-section .left-section h1 {
+    font-size: 24px;
+    color: aliceblue;
+  }
+  
+  .third-section .left-section p {
+    color: #333;
+  }
+
+  .fourth-section {
+   
+    display: flex;
+    overflow: auto;
+    padding: 80px;
+  }
+  
+  .fourth-section .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .fourth-section .left-section .left-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+  
+  .fourth-section .right-section {
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .fourth-section .right-section h3 {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .fourth-section .right-section h1 {
+    font-size: 24px;
+    color: aliceblue;
+  }
+  
+  .fourth-section .right-section p {
+    color: #333;
+  }
+
+  .fifth-section{
+    overflow: auto;
+    padding: 80px;
+    color: white;
+    
+  }
+
+  .fifth-section .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+  .fifth-section .main-block{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fifth-section .blocks{
+    height: 300px;
+    width: auto;
+
+  }
+
+  .fifth-section .number{
+    font-size: 50px;
+    font-weight: 900;
+    color: #333;
+  }
